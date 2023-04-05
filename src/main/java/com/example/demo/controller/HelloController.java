@@ -18,6 +18,7 @@ public class HelloController {
     @GetMapping("/abc")
     public String hello () {
         log.info(new Date().toLocaleString() + ":hello world");
+        System.out.println("test");
         return "hello abc";
     }
 }
