@@ -19,6 +19,6 @@ public class HelloController {
     public String hello () {
         log.info(new Date().toLocaleString() + ":hello world");
         System.out.println("test");
-        return "hello abc";
+        return "hello abc test";
     }
 }
